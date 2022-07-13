@@ -1,0 +1,61 @@
+.signInDiv{
+    width:600px;
+    height: 500px;
+    margin: auto;
+    /* border: 2px solid black; */
+}
+header{
+    width:500px;
+    margin: auto;
+    margin-top: 20px;
+    height: 30px;
+    /* line-height: 30px; */
+    background-color: rgb(224, 220, 220);
+    border:1px solid black;
+}
+header p{
+     line-height: 1.5; 
+    display:inline-block;
+    margin-left: 10px;
+}
+.heading{
+    float:left;
+    margin-top: 0px;
+    text-transform: uppercase;
+}
+.pageDEsc{
+    float: right;
+    margin-top: 0px;
+    margin-right: 10px;
+}
+.userSignInForm{
+    margin: auto;
+    width: 300px;
+    margin-top: 50px;
+    padding:20px;
+    background-color: rgb(224, 220, 220);
+    border: 1px solid black;
+}
+h1{
+    text-align:center;
+}
+#passWord, #userName, #emailID{
+    text-align: center;
+    background-color: rgb(224, 220, 220);
+    border:1px solid black;
+    padding:6px;
+    margin-top:5px ;
+}
+#signInButton{
+    border: 1px solid black;
+    width:90px;
+    cursor: pointer;
+}
+span a{
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+}
+span a:hover{
+    cursor: pointer;
+}
